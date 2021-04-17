@@ -66,7 +66,7 @@ nav li:hover, nav li:active {
 /* Texts */
 
 .re_mainTitle{
-    font-weight: 800;
+    font-weight: 700;
     font-size: 25px;
     margin: auto;
 }
@@ -208,4 +208,102 @@ nav li:hover, nav li:active {
 
 .re_resultText {
     margin-left: 10px;
+}
+
+/* Hébergements */
+
+.re_hebergements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.re_hebergement {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 20px 23px;
+}
+.re_h1 {
+    width: 60%;
+}
+.re_h2 {
+    width: 30%;
+}
+
+.re_hebergementTitle {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px 0 20px 0;
+}
+.re_options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.re_seeMore {
+    font-weight: 700;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.fa-chart-line {
+    font-size: 20px;
+}
+
+/* Hébergements first cards */
+
+.re_heblist {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.re_card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.re_imgCard {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.re_cardImage {
+    width: 100%;
+}
+
+.re_cardText {
+    margin: 7px 10px;
+}
+.re_hName {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 2px 0 0 0;
+}
+.re_hDescription {
+    font-size: 13px;
+    margin: 5px 0 5px 0;
+}
+.re_hDescription strong {
+    font-weight: 700;
+}
+
+.fa-star {
+    font-size: 13px;
+    color: #F2F2F2;
+}
+
+.re_starFull i {
+    color: #0065FC;
 }
