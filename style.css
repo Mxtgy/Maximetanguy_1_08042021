@@ -371,9 +371,7 @@ h1 {
 }
 .r-card-left-image {
     width: 100%;
-    height: -webkit-fill-available;
     object-fit: cover;
-    position: absolute;
 }
 .r-left-card-text {
     margin: .1em 1.1em;
@@ -402,7 +400,7 @@ h1 {
     font-size: 1em;
     color: #F2F2F2;
 }
-.r-star-full {
+.r-star-full, .r-star-full-right {
     color: #0065FC !important;
 }
 .r-right-header {
@@ -469,9 +467,6 @@ h1 {
 .r-right-stars {
     position: absolute;
     bottom: 1em;
-}
-.r-star-full-right {
-    color: #0065FC !important;
 }
 @media screen and (max-width: 1142px) {
     .r-hebergements {
