@@ -2,12 +2,12 @@
 
 Intégration d'une maquette responsive en HTML et CSS pour un site de planification de vacances.
 
-##Langages utilisés
+## Langages utilisés
 
 * HTML
 * CSS
 
-##Fonctionnalités
+## Fonctionnalités
 
 * Champs de recherche
 * Ancres
