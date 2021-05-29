@@ -1,6 +1,11 @@
-/* Généralités */
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('header-content.css');
+@import url('hebergement.css');
+@import url('activite.css');
+@import url('footer.css');
+@import url('animations.css');
+
+/* Généralités */
 
 body {
     font-family: 'Raleway', sans-serif;
