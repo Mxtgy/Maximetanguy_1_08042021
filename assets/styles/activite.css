@@ -24,12 +24,16 @@
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.16);
 }
 .r-activite-figure {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+.r-activite-figure picture {
     display: flex;
     flex-direction: column;
     position: relative;
     height: 100%;
     margin: 0;
-
 }
 .r-activite-figure img {
     object-fit: cover;
@@ -64,12 +68,18 @@
     box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.16);
 }
 .r-activite-aside-figure {
-    display: flex;
-    flex-direction: column;
     position: relative;
     margin: 0;
     height: 100%;
 
+}
+.r-activite-aside-figure picture {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
 }
 .r-activite-aside-figure img {
     object-fit: cover;
